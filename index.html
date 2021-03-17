@@ -9,21 +9,84 @@
   <title>WDS Bootcamp</title>
 </head>
 <body>
-<header>
-  <nav>
-    <img src="img/wds_logo.png" alt="WDS Logo">
-    <ul>
+<header class="full-screen-header">
+  <nav class="nav nav-top">
+    <img class="logo" src="img/wds_logo.png" alt="WDS Logo">
+    <ul class="nav-list">
       <li><a href="#">Curriculum</a></li>
       <li><a href="#">Pricing</a></li>
-      <li><a href="#">Contact</a></li>
+      <li><a class="btn" href="#">Contact</a></li>
     </ul>
   </nav>
-  <h1>WDS Bootcamp</h1>
-  <span>From No Stack To Full Stack</span>
-  <a href="#">Learn More</a>
-  <img src="img/arrow_down.svg" alt="Scroll down icon">
-
+  <h1 class="title">WDS Bootcamp</h1>
+  <span class="sub-title">From No Stack To Full Stack</span>
+  <a class="btn" href="#">Learn More</a>
+  <img class="scroll-down-icon" src="img/arrow_down.svg" alt="Scroll down icon">
 </header>
+<main>
+  <section class="section">
+    <h2 class="section-title"> Curriculum</h2>
+    <div class="curriculum-grid">
+      <div class="curriculum-grid-item">
+        <img src="img/html_icon.svg" alt="html icon">
+        <p>Start with the basics by learning HTML/CSS to build your first website</p>
+      </div>
 
+      <div class="curriculum-grid-item">
+        <img src="img/node_js_icon.svg" alt="html icon">
+        <p>Start with the basics by learning HTML/CSS to build your first website</p>
+      </div>
+
+      <div class="curriculum-grid-item">
+        <img src="img/vscode_icon.svg" alt="html icon">
+        <p>Start with the basics by learning HTML/CSS to build your first website</p>
+      </div>
+
+      <div class="curriculum-grid-item">
+        <img src="img/database_icon.svg" alt="html icon">
+        <p>Start with the basics by learning HTML/CSS to build your first website</p>
+      </div>
+
+      <div class="curriculum-grid-item">
+        <img src="img/edit_page_icon.svg" alt="html icon">
+        <p>Create stunning designs by using modern design tools like Figma and Sketch</p>
+      </div>
+
+      <div class="curriculum-grid-item">
+        <img src="img/react_icon.svg" alt="html icon">
+        <p>Use the most popular frontend framework to create modern PWAs</p>
+      </div>
+
+    </div>
+  </section>
+  <section class="section section-accent">
+    <h2 class="section-title free-title">Free</h2>
+    <p class="free-sub-title">That’s right. All of this amazing content is available completely for free on YouTube!</p>
+  </section>
+  <section class="section form-section">
+    <h2 class="section-title">Contact</h2>
+    <form class="form">
+      <label for="name">Name</label>
+      <input type="text" name="name" id="name">
+      <label for="email">Email</label>
+      <input type="text" name="email" id="email">
+      <label for="message">Message</label>
+      <textarea name="message" id="message"></textarea>
+      <div class="btn-container">
+        <button class="btn btn-square" type="submit">Send</button>
+      </div>
+    </form>
+  </section>
+  <footer>
+    <nav class="nav">
+      <img class="logo" src="img/wds_logo.png" alt="WDS Logo">
+      <ul class="nav-list">
+        <li><a href="#">Curriculum</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a class="btn" href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </footer>
+</main>
 </body>
 </html>
